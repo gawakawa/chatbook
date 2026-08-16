@@ -16,7 +16,7 @@
           packages = [ pkgs.nodejs_24 ];
           shellHook = ''
             corepack enable --install-directory "$PWD/.direnv/bin" 2>/dev/null || true
-            export PATH="$PWD/.direnv/bin:$PATH"
+            export PATH="$PWD/.direnv/bin:$PWD/node_modules/.bin:$PATH"
           '';
         };
       });
