@@ -1,5 +1,7 @@
 # chatbook
 
+公開先: https://chatbook.prisma-api.workers.dev
+
 <img width="2032" height="1162" alt="image" src="https://github.com/user-attachments/assets/fcb35a29-3f7a-47c0-86bb-94ee4fcc79dc" />
 
 技術書を読みながら、気になった箇所を選択して AI に質問できる PDF リーダーです。
