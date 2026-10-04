@@ -61,7 +61,15 @@ export default defineConfig({
     environment: "jsdom",
     globals: true,
     setupFiles: ["./src/test/setup.ts"],
-    // e2e/ holds Playwright specs, which must not be collected by vitest
-    exclude: ["**/node_modules/**", "**/dist/**", "test/worker/**", "e2e/**", AGENT_WORKTREES],
+    // e2e/ holds Playwright specs, which must not be collected by vitest.
+    // .direnv/flake-inputs/ holds a copy of this whole repo made by the Nix flake.
+    exclude: [
+      "**/node_modules/**",
+      "**/dist/**",
+      "test/worker/**",
+      "e2e/**",
+      AGENT_WORKTREES,
+      ".direnv/**",
+    ],
   },
 });
