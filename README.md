@@ -1,6 +1,6 @@
 # chatbook
 
-公開先: https://chatbook.prisma-api.workers.dev
+公開先: https://chatbook.1ota.workers.dev
 
 <img width="2032" height="1162" alt="image" src="https://github.com/user-attachments/assets/fcb35a29-3f7a-47c0-86bb-94ee4fcc79dc" />
 
